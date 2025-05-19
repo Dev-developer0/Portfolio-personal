@@ -43,28 +43,46 @@ body {
     color: #ffffff;
 }
 
-/* About Section */
-#about {
-    background-color: #1f1f1f;
-    color: #ffffff;
-    padding: 50px 20px;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-    text-align: center;
-}
-
-#about p {
-    font-size: 1.2em;
-    color: #bbbbbb;
-    margin-bottom: 15px;
-}
-
-
 .intro p {
     font-size: 1.2em;
     color: #bbbbbb;
 }
+
+/* About Section */
+#about {
+    background-color: #282828;
+    color: #f0f0f0;
+    padding: 60px 30px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    max-width: 900px;
+    margin: 50px auto;
+}
+
+#about:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.8);
+}
+
+#about h2 {
+    font-size: 2.5em;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.2em;
+    color: #cccccc;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 
 /* Button Styles */
 .btn-custom {
