@@ -43,6 +43,24 @@ body {
     color: #ffffff;
 }
 
+/* About Section */
+#about {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    padding: 50px 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+#about p {
+    font-size: 1.2em;
+    color: #bbbbbb;
+    margin-bottom: 15px;
+}
+
+
 .intro p {
     font-size: 1.2em;
     color: #bbbbbb;
